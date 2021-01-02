@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Src\\' => array($baseDir . '/src'),
+    'AdminPostNotifier\\' => array($baseDir . '/src'),
 );

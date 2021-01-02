@@ -4,7 +4,7 @@
  * @package AdminPostNotifier
  */
 
-namespace Src;
+namespace AdminPostNotifier;
 
 class Admin extends Base{
   public $current_user;

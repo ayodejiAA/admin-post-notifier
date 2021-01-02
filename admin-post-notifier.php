@@ -7,7 +7,7 @@
 
 /*
 Plugin Name: Admin Post Notifier
-Description: Sends out notifications when there are posts pending review. Currently works for contributors.  
+Description: Sends out notifications when there are new posts pending review. Currently works for contributors.  
 Author: Ayodeji Afolabi
 Author URI: https://twitter.com/dev_ayo
 Version: 1.0.0
@@ -38,6 +38,6 @@ if (file_exists(dirname(__FILE__)."/vendor/autoload.php")) {
   require_once dirname(__FILE__)."/vendor/autoload.php";
 }
 
-if (class_exists('Src\\Init')) {
-  add_action( 'init',  array('Src\Init', 'init_services') );
+if (class_exists('AdminPostNotifier\\Init')) {
+  add_action( 'init',  array('AdminPostNotifier\Init', 'init_services') );
 }

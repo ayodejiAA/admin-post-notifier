@@ -4,7 +4,7 @@
  * @package AdminPostNotifier
  */
 
-namespace Src;
+namespace AdminPostNotifier;
 
 class Base {
  public static $allowed_role = 'contributor';

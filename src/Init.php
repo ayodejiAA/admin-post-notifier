@@ -5,7 +5,7 @@
  * 
  */
 
-namespace Src;
+namespace AdminPostNotifier;
 
 final class Init {
 
