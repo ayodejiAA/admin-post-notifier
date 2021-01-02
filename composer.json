@@ -1,0 +1,19 @@
+{
+    "name": "ayodeji/admin-post-notifier",
+    "description": "Sends notifications for posts pending review.",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Ayodeji Afolabi",
+            "email": "xwebyna@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Src\\": "./src"
+        }
+    }
+}
