@@ -13,8 +13,9 @@ This is a simple plugin that sends email notification for every new post submitt
 == Description ==
 ### Admin Post Notifier
 
-Always want to be notified when any of your blog contributors submit a new post? If yes, the gaol of Admin Post Notifier is to deliver emails to the site admin when there is a new (or updated) pending post for review. 
-No addition setting is required of you. The plugin utilizes the WordPress core email functionality to send email notifications when activated. 
+Always want to be notified when any of your blog contributors submit a new post? If yes, the gaol of Admin Post Notifier is to deliver emails to the site admin when there is a new (or updated) pending post for review.
+
+No additional setting is required of you. The plugin utilizes the WordPress core email functionality to send email notifications when activated. 
 
 == Frequently Asked Questions ==
 = Is Admin Post Notifier free? =
